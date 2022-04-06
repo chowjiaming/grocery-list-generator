@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.App {
+  font-family: "Ubuntu", sans-serif;
+  min-height: 100vh;
+}
+
+[data-theme="light"] {
+  --main-background: hsl(57, 72%, 85%);
+  --font-colour: hsl(161, 100%, 3%);
+}
+
+[data-theme="dark"] {
+  --main-background: hsl(202, 20%, 34%);
+  --font-colour: hsl(204, 28%, 93%);
+}
