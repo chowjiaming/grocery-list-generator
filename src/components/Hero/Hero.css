@@ -1,0 +1,14 @@
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-image {
+  width: 10rem;
+}
+
+.hero-text {
+  color: var(--font-colour-title);
+}

@@ -1,0 +1,7 @@
+.category-image {
+  width: 4rem;
+}
+
+.category-text {
+  color: var(--font-colour-title);
+}

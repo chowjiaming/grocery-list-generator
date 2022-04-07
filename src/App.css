@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 :root {
   box-sizing: border-box;
 }
@@ -12,17 +11,22 @@
   box-sizing: inherit;
 }
 
-.App {
-  font-family: "Ubuntu", sans-serif;
-  min-height: 100vh;
-}
-
 [data-theme="light"] {
   --main-background: hsl(57, 72%, 85%);
   --font-colour: hsl(161, 100%, 3%);
 }
 
 [data-theme="dark"] {
-  --main-background: hsl(202, 20%, 34%);
-  --font-colour: hsl(204, 28%, 93%);
+  --main-background: hsl(197, 41%, 17%);
+  --font-colour-main: hsl(204, 28%, 93%);
+  --font-colour-title: hsl(0, 100%, 70%);
+  --font-link-hover: hsl(57, 72%, 85%);
+  --search-background: hsl(333, 21%, 92%);
+}
+
+.App {
+  font-family: "Cabin", sans-serif;
+  color: var(--font-colour-main);
+  background-color: var(--main-background);
+  min-height: 100vh;
 }

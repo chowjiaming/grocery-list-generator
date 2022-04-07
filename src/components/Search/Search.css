@@ -1,0 +1,13 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+.search {
+  border: none;
+  border-radius: 1.5rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  text-align: center;
+  min-width: 20rem;
+  background-color: var(--search-background);
+}

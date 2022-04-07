@@ -1,0 +1,8 @@
+.categories-container {
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 1rem;
+  text-align: center;
+}
