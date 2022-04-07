@@ -1,3 +1,4 @@
+import Search from "../Shared/Search/Search";
 import "./Hero.css";
 
 export default function Hero() {
@@ -9,6 +10,7 @@ export default function Hero() {
         alt="recipe-book"
       />
       <h1 className="hero-text">Search your recipes</h1>
+      <Search />
     </section>
   );
 }

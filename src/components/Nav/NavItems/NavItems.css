@@ -1,11 +1,11 @@
-.nav-items {
+.navbar-links {
   list-style: none;
   display: flex;
   gap: 3rem;
   margin-left: auto;
 }
 
-li > a {
+.navbar-link {
   color: var(--font-colour-title);
   text-decoration: none;
   font-weight: 700;
@@ -13,7 +13,7 @@ li > a {
 }
 
 @media (max-width: 45rem) {
-  .nav-items {
+  .navbar-links {
     display: none;
   }
 }
