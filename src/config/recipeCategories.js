@@ -36,13 +36,6 @@ export const RecipeCategories = [
       "General foods that don't fit into another category",
   },
   {
-    idCategory: "6",
-    strCategory: "Pasta",
-    strCategoryThumb: "https://www.themealdb.com/images/category/pasta.png",
-    strCategoryDescription:
-      "Pasta is a staple food of traditional Italian cuisine, with the first reference dating to 1154 in Sicily.\r\n\r\nAlso commonly used to refer to the variety of pasta dishes, pasta is typically a noodle made from an unleavened dough of a durum wheat flour mixed with water or eggs and formed into sheets or various shapes, then cooked by boiling or baking. As an alternative for those wanting a different taste, or who need to avoid products containing gluten, some pastas can be made using rice flour in place of wheat.[3][4] Pastas may be divided into two broad categories, dried (pasta secca) and fresh (pasta fresca).",
-  },
-  {
     idCategory: "7",
     strCategory: "Pork",
     strCategoryThumb: "https://www.themealdb.com/images/category/pork.png",
@@ -91,12 +84,5 @@ export const RecipeCategories = [
     strCategoryThumb: "https://www.themealdb.com/images/category/breakfast.png",
     strCategoryDescription:
       'Breakfast is the first meal of a day. The word in English refers to breaking the fasting period of the previous night. There is a strong likelihood for one or more "typical", or "traditional", breakfast menus to exist in most places, but their composition varies widely from place to place, and has varied over time, so that globally a very wide range of preparations and ingredients are now associated with breakfast.',
-  },
-  {
-    idCategory: "14",
-    strCategory: "Goat",
-    strCategoryThumb: "https://www.themealdb.com/images/category/goat.png",
-    strCategoryDescription:
-      "The domestic goat or simply goat (Capra aegagrus hircus) is a subspecies of C. aegagrus domesticated from the wild goat of Southwest Asia and Eastern Europe. The goat is a member of the animal family Bovidae and the subfamily Caprinae, meaning it is closely related to the sheep. There are over 300 distinct breeds of goat. Goats are one of the oldest domesticated species of animal, and have been used for milk, meat, fur and skins across much of the world. Milk from goats is often turned into goat cheese.",
   },
 ];

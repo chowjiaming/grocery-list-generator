@@ -1,7 +1,12 @@
+.category-container {
+  padding: 1rem 0;
+  background-color: var(--category-background);
+}
+
 .category-image {
   width: 4rem;
 }
 
 .category-text {
-  color: var(--font-colour-title);
+  color: var(--font-colour-one);
 }

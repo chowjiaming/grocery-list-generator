@@ -17,17 +17,18 @@
 }
 
 [data-theme="dark"] {
-  --main-background: hsl(190, 100%, 23%);
-  --navbar-background: hsl(197, 100%, 5%);
-  --font-colour-main: hsl(45, 60%, 78%);
-  --font-colour-title: hsl(5, 81%, 38%);
-  --font-link-hover: hsl(57, 72%, 85%);
-  --search-background: hsl(333, 21%, 92%);
+  --main-background: hsl(222, 26%, 31%);
+  --navbar-background: hsl(223, 31%, 20%);
+  --font-colour-one: hsl(0, 0%, 100%);
+  --font-colour-two: hsl(221, 14%, 31%);
+  --font-colour-three: hsl(6, 63%, 50%);
+  --search-background: hsl(224, 36%, 15%);
+  --category-background: hsl(225, 21%, 49%);
 }
 
 .App {
   font-family: "Montserrat", sans-serif;
-  color: var(--font-colour-main);
+  color: var(--font-colour-one);
   background-color: var(--main-background);
   min-height: 100vh;
 }
