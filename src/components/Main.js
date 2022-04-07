@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { Route, Routes } from "react-router-dom";
 import { NavigationProvider } from "../helpers/navigationContext";
+import { SearchProvider } from "../helpers/searchContext";
 import Navbar from "./Nav/Navbar/Navbar";
 import Sidebar from "./Nav/Sidebar/Sidebar";
 import Hero from "./Hero/Hero";
@@ -14,11 +15,13 @@ export default function Main() {
         <Navbar />
         <Sidebar />
       </NavigationProvider>
-      <Routes>
-        <Route path="/" element={<Hero />} />
-        <Route path="/categories" element={<Categories />} />
-        <Route path="/recipes" element={<Recipes />} />
-      </Routes>
+      <SearchProvider>
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/categories" element={<Categories />} />
+          <Route path="/recipes" element={<Recipes />} />
+        </Routes>
+      </SearchProvider>
     </Fragment>
   );
 }

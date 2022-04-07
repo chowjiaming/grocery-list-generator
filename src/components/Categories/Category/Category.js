@@ -1,10 +1,18 @@
+import { useContext } from "react";
+import SearchContext from "../../../helpers/searchContext";
 import "./Category.css";
 
 export default function Category(props) {
   const { category } = props;
-  console.log(category);
+  const { handleCategoryClick } =
+    useContext(SearchContext);
+
   return (
-    <div className="category-container">
+    <div
+      className="category-container"
+      id={category.strCategory}
+      onClick={handleCategoryClick}
+    >
       <img
         className="category-image"
         src={`images/categories/${category.strCategory}.svg`}
