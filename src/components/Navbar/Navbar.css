@@ -1,16 +1,14 @@
 .navbar {
+  color: var(--font-colour-title);
+  background-color: var(--navbar-background);
   padding: 1rem;
   display: flex;
+  align-items: center;
+  position: relative;
 }
 
-.nav-icon {
-  width: 2rem;
+.nav-title {
+  color: inherit;
+  font-family: "Pacifico", cursive;
 }
 
-.recipes-nav {
-  color: var(--font-colour-title);
-  margin-left: auto;
-}
-.recipes-nav:hover {
-  color: var(--font-link-hover);
-}

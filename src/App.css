@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap");
 :root {
   box-sizing: border-box;
 }
@@ -17,15 +17,16 @@
 }
 
 [data-theme="dark"] {
-  --main-background: hsl(197, 41%, 17%);
-  --font-colour-main: hsl(204, 28%, 93%);
-  --font-colour-title: hsl(0, 100%, 70%);
+  --main-background: hsl(190, 100%, 23%);
+  --navbar-background: hsl(197, 100%, 5%);
+  --font-colour-main: hsl(45, 60%, 78%);
+  --font-colour-title: hsl(5, 81%, 38%);
   --font-link-hover: hsl(57, 72%, 85%);
   --search-background: hsl(333, 21%, 92%);
 }
 
 .App {
-  font-family: "Cabin", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: var(--font-colour-main);
   background-color: var(--main-background);
   min-height: 100vh;
